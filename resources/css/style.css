@@ -1,0 +1,188 @@
+********** General **********/
+html {
+  font-size: 14px;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+.navbar-default .navbar-nav>.active>a,
+.featured h2,
+.categories h3 {
+  color:#399bd1;
+}
+
+.btn {
+  background-color: #399bd1;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+  width: 11.4rem;
+  padding: 1.3rem 0;
+  margin-top: 2.8rem;
+}
+
+.btn:hover {
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.9);
+}
+
+.btn:active{
+  box-shadow: 0 0 0 rgba(0, 0, 0, 0.9);
+}
+
+/********** Navigation **********/
+.navbar-default .navbar-nav>li>a {
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.navbar-default .navbar-nav>.active>a {
+  background-color: transparent;
+}
+
+@media only screen and (max-width:767px) {
+  .desktop {
+    display: none;
+  }
+}
+
+/********** Jumbotron **********/
+.jumbotron {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 11.85rem 0;
+  text-align: center;
+}
+
+.jumbotron-bike {
+  background-image: url(../images/jumbotron-bike.jpg);
+}
+
+.jumbotron-beer {
+  background-image: url(../images/jumbotron-beer.jpg);
+}
+
+.jumbotron-flowers {
+  background-image: url(../images/jumbotron-flowers.jpg);
+}
+
+.jumbotron-duffel {
+  background-image: url(../images/jumbotron-duffel.jpg);
+}
+
+.jumbotron h1 {
+  font-family: "Monoton", sans-serif;
+  font-size: 7.1rem;
+  text-shadow: -1px -1px 0 #000,
+              1px -1px 0 #000,
+              -1px 1px 0 #000,
+              1px 1px 0 #000;
+}
+
+.jumbotron p {
+  text-shadow: 1px 1px 0 black;
+  width: 51.3rem;
+}
+
+.jumbotron p,
+.jumbotron h1 {
+  color: white;
+  margin: auto;
+}
+
+@media only screen and (max-width:767px) {
+  .jumbotron h1 {
+    font-size: 4.7rem;
+  }
+
+  .jumbotron p,
+  .jumbotron h1 {
+    width: 100%;
+  }
+}
+
+/********** Project Section **********/
+.projects {
+  line-height: 1.4;
+  margin-bottom: 5.85rem;
+}
+
+.projects h2 {
+  margin-bottom: 1.43rem;
+  font-size: 1.7rem;
+}
+
+.projects h3 {
+  font-size: 1.3rem;
+  margin-top: 0;
+}
+
+.projects h2,
+.projects h3 {
+  font-weight: bold;
+}
+
+.image-container {
+  overflow: hidden;
+  margin-bottom: 1.43rem;
+}
+
+.projects img {
+  width: 100%;
+  opacity: 0.7;
+  transition: opacity 0.5s, transform 0.5s;
+}
+
+.projects img:hover {
+  opacity: 1;
+  transform: scale(1.3);
+}
+
+.featured .image-container {
+  max-height: 24.8rem;
+}
+
+.single-project {
+  max-height: 16.6rem;
+}
+
+.projects span {
+  margin-bottom: 10px;
+  display: block;
+}
+
+.categories li {
+  color: rgba(0, 0, 0, 0.7);
+}
+
+/********** Footer **********/
+footer {
+  padding: 5.2rem 0;
+  background-color: #f3f3f3;
+}
+
+footer h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+footer p {
+  width: 42rem;
+}
+
+footer .btn {
+  display: block;
+}
+
+footer h2,
+footer p,
+footer .btn {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media only screen and (max-width:767px) {
+  footer p {
+    width: 100%;
+  }
